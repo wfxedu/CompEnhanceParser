@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="SRParser.h" />
+    <ClInclude Include="util.h" />
+    <ClInclude Include="ParserTester.h" />
+    <ClInclude Include="ParserTrainer.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="..\cnn\easylogging++.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\aligned-mem-pool.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\c2w.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\cnn.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\cnn-helper.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\conv.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\dict.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\dim.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\except.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\exec.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\expr.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\functors.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\grad-check.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\graph.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\init.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\lstm.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\model.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\nodes.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\param-nodes.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\random.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\rnn.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\rnn-state-machine.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\shadow-params.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\tensor.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\timing.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\training.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="freelist.h" />
+    <ClInclude Include="TreeReader.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="Oracle.h" />
+    <ClInclude Include="model_transfer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SRParser.cpp" />
+    <ClCompile Include="util.cpp" />
+    <ClCompile Include="ParserTester.cpp" />
+    <ClCompile Include="ParserTrainer.cpp" />
+    <ClCompile Include="common.cpp" />
+    <ClCompile Include="..\cnn\cnn.cc">
+      <Filter>cnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cnn\conv.cc">
+      <Filter>cnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cnn\dict.cc">
+      <Filter>cnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cnn\dim.cc">
+      <Filter>cnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cnn\exec.cc">
+      <Filter>cnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cnn\expr.cc">
+      <Filter>cnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cnn\grad-check.cc">
+      <Filter>cnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cnn\graph.cc">
+      <Filter>cnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cnn\init.cc">
+      <Filter>cnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cnn\lstm.cc">
+      <Filter>cnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cnn\model.cc">
+      <Filter>cnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cnn\nodes.cc">
+      <Filter>cnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cnn\nodes-common.cc">
+      <Filter>cnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cnn\param-nodes.cc">
+      <Filter>cnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cnn\rnn.cc">
+      <Filter>cnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cnn\rnn-state-machine.cc">
+      <Filter>cnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cnn\shadow-params.cc">
+      <Filter>cnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cnn\tensor.cc">
+      <Filter>cnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cnn\training.cc">
+      <Filter>cnn</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeReader.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="model_transfer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="cnn">
+      <UniqueIdentifier>{3467ba83-78c6-46e8-9000-da97f49b885a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="io">
+      <UniqueIdentifier>{65b9b09a-4872-4256-ae61-70aa55e6ce36}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
